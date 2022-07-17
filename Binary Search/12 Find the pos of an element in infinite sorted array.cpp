@@ -22,7 +22,7 @@ int binarySearch(int arr[], int l, int r, int x)
 int findPos(int arr[], int key)
 {
     int l = 0, h = 1;
-    int val = arr[0];
+    int val = arr[h];
  
     // Find h to do binary search
     while (val < key)
